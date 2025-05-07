@@ -1,0 +1,24 @@
+.card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  text-align: center;
+  margin: 50px 30px;
+  cursor: pointer;
+}
+.card > div {
+  background: #000;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+div .selected {
+  background: #e03131;
+  font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+  .card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
