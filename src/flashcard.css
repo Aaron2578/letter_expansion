@@ -16,6 +16,18 @@ div .selected {
   background: #e03131;
   font-weight: bold;
 }
+footer {
+  margin: 20px 0px 0px 0px;
+  text-align: center;
+  background: #000;
+  color: #fff;
+  padding: 20px 0px;
+}
+footer > p {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
 @media screen and (max-width: 600px) {
   .card {
     display: grid;
